@@ -285,7 +285,7 @@ Andrea Arias Sanchez
             }
         });
         
-        // Mostrar año actual en el copyright
+        
         document.querySelector('.copyright').textContent = 
             `© ${new Date().getFullYear()} MiWeb. Todos los derechos reservados.`;
     </script>
