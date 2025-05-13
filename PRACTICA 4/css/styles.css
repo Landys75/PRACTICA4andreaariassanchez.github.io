@@ -1,0 +1,75 @@
+/* Estilos generales */
+:root {
+    --rosa-principal: #ff4d8d;
+    --morado-oscuro: #6a0dad;
+    --dorado: #d4af37;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff5f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff4d8d 0%, #ff9ec6 100%);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(106,13,173,0.7), rgba(106,13,173,0.7)), 
+                url('../images/hero-bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Botones */
+.btn {
+    background: var(--rosa-principal);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255,77,141,0.4);
+}
+
+/* Productos */
+.product-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
